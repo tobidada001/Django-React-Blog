@@ -1,16 +1,14 @@
 import userimg from './images/avatars/user-01.jpg'
 import userimg2 from './images/avatars/user-03.jpg'
 import formatdate from './formatdate'
-import {useNavigate} from 'react-router-dom'
 
 export default function Comments(props) {
-    
+
     return (
 
         <div id="comments">
 
             <h3>{props.total} Comments</h3>
-
 
             <ol className="commentlist">
 

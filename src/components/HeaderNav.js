@@ -3,20 +3,16 @@ import { Link, NavLink } from 'react-router-dom'
 import { useLocation } from 'react-router-dom'
 import {ReactFragment} from 'react'
 import {Fragment} from 'react'
-import Preloader from './Preloader';
 
 function HeaderNav() {
 
     const location = useLocation();
-
     const { pathname } = location
     const splitLocation = pathname.split('/');
-
 
     return (
         
             <Fragment>
-                
                 <header className="s-header">
 
                     <HeaderTagline />

@@ -1,4 +1,3 @@
-import { apilink } from "../apilink";
 import { useState } from "react";
 
 function AddComment(props) {

@@ -20,7 +20,7 @@ function SideBar(){
                     sint cillum sint consectetur voluptate adipisicing Duis irure magna ut sit amet reprehenderit.
                     </p>
                 </div>
-
+    
             <PostTags />
 
             <PopularPostsList />

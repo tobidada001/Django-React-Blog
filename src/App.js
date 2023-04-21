@@ -1,17 +1,12 @@
-
-import HeaderNav from './components/HeaderNav'
-// import './components/css/base.css'
-// import './components/css/main.css'
 import Home from './components/pages/Home'
 import Archives from './components/pages/Archives'
 import Page from './components/pages/Page'
 import SingleBlog from './components/pages/SingleBlog'
 import Demo from './components/pages/Demo'
 import BlogEntries from './components/pages/BlogEntries'
-import Footer from './components/Footer'
 import CategoryList from './components/CategoryList'
 import TagPostList from './components/pages/TagPostList'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 
 function App() {
 

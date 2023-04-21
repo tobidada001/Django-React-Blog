@@ -1,8 +1,7 @@
-import {useState, useEffect} from 'react'
+import {useState} from 'react'
 import {useNavigate} from 'react-router-dom'
 
 function Search(){
-    const [data, setData] = useState('')
     const [searched, setSearched] = useState('')
     const navigate = useNavigate()
 
